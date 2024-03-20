@@ -52,7 +52,6 @@ body {
 .favorite-place {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	/* 1:3 ratio for the two columns */
 	gap: 0px;
 	padding: 0px 30px 220px 30px;
 	position: relative;
@@ -82,8 +81,10 @@ body {
 	margin-left: 50%;
 	margin-right: auto;
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .favorite-place-introduction {
 	padding-right: 20px;
+	padding-top: 30px;
 }
